@@ -7,7 +7,7 @@
             bool answer = false;
 
             // code here
-
+            answer = d > 0;
             // end
 
             return answer;
@@ -16,8 +16,9 @@
         {
             bool answer = false;
 
-            // code here
-
+            // code
+            answer = n % 2 == 0;
+            Console.WriteLine(n % 2);
             // end
 
             return answer;
